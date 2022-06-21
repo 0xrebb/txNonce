@@ -2,11 +2,11 @@
 
 ## Features
 
-- Add Nonce column when viewing transactions of a block
+- Add Index column when viewing transactions of a block
 
-Make it easy to view transaction nonce inside the block.
+Make it easy to view transaction index inside the block.
 
-![adds a nonce column](screenshot.png)
+![adds an index column](screenshot.png)
 
 
 

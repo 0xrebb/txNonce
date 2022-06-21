@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "txNonce",
-    "description": "Block explorer transaction nonce numbering",
+    "description": "Block explorer transaction index numbering",
     "version": "0.1.0",
     "icons": {
         "48":"book-number-icon-48.png"

@@ -21,7 +21,7 @@ export class TxNonceInject {
 		const delay = (ms = 200) => new Promise((r) => setTimeout(r, ms));
 		const header = document.querySelector("thead > tr");
 		header!.innerHTML =
-			'<th scope="col" width="20">Nonce</th>' + header!.innerHTML;
+			'<th scope="col" width="20">Index</th>' + header!.innerHTML;
 		const res = document.querySelectorAll("tbody > tr");
 		let i = 0;
 		res.forEach(async (el) => {
