@@ -1,0 +1,18 @@
+{
+  "name": "txnonce",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && vite build",
+    "start": "tsc && vite build --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.32",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vitest": "^0.12.9"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

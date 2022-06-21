@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "txNonce",
+    "description": "Block explorer transaction nonce numbering",
+    "version": "0.1.0",
+    "icons": {
+        "48":"book-number-icon-48.png"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [{
+        "js": ["js/contentJs.js"],
+        "matches": ["https://*.etherscan.io/txs?block=*", "https://*.polygonscan.com/txs?block=*", "https://*.bscscan.com/txs?block=*"],
+        "run_at":"document_end"
+    }]
+}
